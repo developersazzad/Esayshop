@@ -1,0 +1,155 @@
+html{
+  scroll-behavior: smooth;
+}
+.carousel_img_1{
+background: url(../img/GALLERY/1.jpg);
+background-attachment: scroll;
+background-size:cover;
+background-position: center center;
+height:300px;
+}
+.carousel_img_2{
+background: url(../img/GALLERY/4.jpg);
+background-attachment: scroll;
+background-size:cover;
+background-position: center center;
+height:300px;
+}
+.carousel_img_3{
+background: url(../img/GALLERY/3.jpg);
+background-attachment: scroll;
+background-size:cover;
+background-position: center center;
+height:300px;
+}
+body{
+  font-style: italic;
+}
+
+.display-4{
+  font-weight:900;
+}
+.navbar-brand{
+  font-weight: 900;
+  font-size: 35px;
+}
+.btn{
+  font-weight:700
+}
+.wieight_text_1{
+    font-weight:700
+}
+.wieight_text_2{
+    font-weight:600
+}
+.img_breands{
+  height:40px;
+}
+.nav_bg_fix{
+  background:#f92851 !important
+}
+.sp_bg{
+    background:#f92851 !important
+}
+.sp_text{
+  color:#f92851 !important
+}
+.unstyled li{
+  font-style: normal;
+}
+.carousel-indicators li.active{
+  background: #ffc107 !important
+}
+.carousel-indicators li {
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+    background-color: rgb(249 40 81)
+}
+.icon_nav i{
+  font-size:25px;
+}
+i.i_counter {
+    font-style: normal !important;
+    background: #123439;
+    border-radius: 100%;
+    color: #fff;
+    padding: 2px 4px;
+    font-size: 12px;
+    height: 17px;
+    line-height: 19px;
+    position: relative;
+    right: -1px;
+    text-align: center;
+    top: -14px;
+    width: 17px;
+}
+img.img_pmt{
+  width: 30px;
+}
+img.img_pmt2{
+  width:px;
+}
+img.img_cart{
+width:100px;
+}
+.sp_fix_2{
+  font-style: normal !important;
+}
+.rounded_sp {
+    border-radius: 50%;
+    width: 38px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    font-size: 24px;
+
+}
+.rounded_sp a i{
+   transition: .3s;
+}
+.rounded_sp a i:hover{
+  color:red;
+}
+.weight_car{
+  font-weight: 900;
+}
+.unborder{
+  border-radius:0px;
+}
+.unstyled{
+  font-style: normal;
+}
+.detals_cart{
+  margin-top:-40px;
+}
+/*============================================================
+============================nav style required css start===========
+=============================================================*/
+ul.unstyled li a{
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 8px;
+}
+a.nav_text{
+  color:white;
+}
+a.nav_text:hover{
+  color:orange;
+}
+@media (max-width:768px) {
+ul.unstyled li{
+  margin-bottom: 10px;
+}
+.detals_cart{
+  margin-top:-23px;
+}
+.mt_sp{
+  margin-top:24px;
+}
+}
+/*============================================================
+============================nav style required css end========
+=============================================================*/
